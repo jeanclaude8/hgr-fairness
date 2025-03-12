@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "privacy-fairness"
+version = "0.1.0"
+description = ""
+authors = ["jeanclude8 <147601059+jeanclaude8@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.3"
+causalgen = "^0.1.2"
+maxcorr = "^0.1.0"
+lightning = "^2.5.0.post0"
+seaborn = "^0.13.2"
+scipy = "^1.15.2"
+ucimlrepo = "^0.0.7"
+torcheval = "^0.0.7"
+tensorboard = "^2.19.0"
+tensorboardx = "^2.6.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
